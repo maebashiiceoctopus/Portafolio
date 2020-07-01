@@ -402,7 +402,6 @@ header {
 .portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
-    max-width: 300px;
     border-radius: 10px;
     
 }
