@@ -37,6 +37,9 @@
 }
 
 /* General styles */
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     background: var(--clr-light);
@@ -180,7 +183,7 @@ header {
 .nav-toggle {
     padding: .5em;
     background: transparent;
-    border: 0;
+    border: none;
     cursor: pointer;
     position: absolute;
     right: 1em;
@@ -188,6 +191,8 @@ header {
     z-index: 1000;
 }
 .nav-open .nav {
+    border: none;
+
     transform: translateX(0);
 }
 
@@ -215,6 +220,7 @@ header {
 .hamburger {
     display: block;
     position: relative;
+    border: none;
 }
 
 .hamburger,
@@ -439,7 +445,7 @@ header {
     list-style: none;
     display: flex;
     justify-content: center;
-    margin: 2em 0 0;
+    margin: 1em 0 0;
     padding-bottom:1em;
 }
 
@@ -449,4 +455,19 @@ header {
 
 .social-list__link{
     padding: .5em;
+}
+
+
+/*portafolio items*/
+
+.portfolio-item-individual {
+    padding: 0 2em 2em;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.portfolio-item-individual p {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
