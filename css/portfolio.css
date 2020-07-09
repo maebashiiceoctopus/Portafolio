@@ -16,6 +16,7 @@
     --clr-light: #fff;
     --clr-dark: #231942;
     --clr-accent: #9f86C0;
+    --color-links:#d80ed8;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -62,7 +63,16 @@ img {
 strong {
     font-weight: var(--fw-bold)
 }
+.link_Item_port a { 
+    color:var(--clr-accent);
+    font-weight: var(--fw-bold);
 
+    }
+    .link_Item_port:hover{
+        opacity: .7;
+        color: var(--color-links);
+    }
+    
 
 
 
