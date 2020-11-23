@@ -57,7 +57,7 @@ section {
 
 img {
     display: block;
-    max-width: 100%;
+    width: 100%;
 }
 
 strong {
@@ -403,10 +403,9 @@ header {
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-row-gap: .5em;
     grid-column-gap: .5em;
-
 }
 
 .portfolio__item {
