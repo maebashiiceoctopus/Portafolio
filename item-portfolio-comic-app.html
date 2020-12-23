@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alejandra Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/portfolio.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo2.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">Acerca de mi</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">Mi Trabajo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            Comic App<strong></strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Angular</p>
+        <img src="img/portfolio-03.jpg" alt="comic app" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>Esta es una aplicación sencilla en la cual podras ver un listado de super héroes, su biografia y algunos datos de interés,adicional podras buscarlos por nombre.
+
+        </p>
+        <img src="img/portfolio-details-3.jpg" alt="pagina comic app">
+        <p>Esta aplicación esta realizada utilizada en Angular, es una single page application por lo cual se hace uso de componentes, utiliza un servicio creado con TypeScript para el consumo de los datos. </p>
+        <p>Puedes visualizar Comic App <a class="link_Item_port" href="https://maebashiiceoctopus.github.io/heroes/heroes" target="_blank" rel="noopener">aquí</a> y ver el repositorio de <a href="https://github.com/maebashiiceoctopus/heroes" target="_blank"
+                rel="noopener">Github</a> </p>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <ul class="social-list">
+            <li class="social-list__item"> <a href="https://codepen.io/maebashiiceoctopus" class="social-list__link" target="_blank" rel="noopener"><i class="fab fa-codepen"></i></a></li>
+            <li class="social-list__item"><a href="https://github.com/maebashiiceoctopus" class="social-list__link" target="_blank" rel="noopener"><i class="fab fa-github"></i></a></li>
+            <li class="social-list__item"> <a href="https://www.linkedin.com/in/aleacostaquin/" class="social-list__link" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+    </footer>
+
+    <script src="js/portfolio.js"></script>
+
+</body>
+
+</html>
